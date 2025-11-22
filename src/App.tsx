@@ -70,11 +70,13 @@ function BankTable({bankDataArr, depositMoney}:{bankDataArr:BankDataType[],depos
   [depositMoney]
   )
 
+  const bestInterest = Math.max(...sortedBankDataArr.map(bank => bank.Interest))
+
   return (
     <>
         {
           sortedBankDataArr.map((bank)=>
-            <BankInfo key={bank.Name} bankData={bank} depositMoney={depositMoney}/>
+            <BankInfo key={bank.Name} best={bank.Interest==bestInterest} bankData={bank} depositMoney={depositMoney}/>
           )
         }
     </>

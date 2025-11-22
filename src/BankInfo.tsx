@@ -1,11 +1,11 @@
 import type {BankDataType, BankSDType} from './Type';
 
-export function BankInfo({ bankData, depositMoney }: { bankData: BankSDType, depositMoney:number}) {
+export function BankInfo({ bankData, depositMoney,best }: { bankData: BankSDType, depositMoney:number, best:boolean}) {
 
   if (bankData.Interest == 0 || depositMoney == 0) {
     return (
     <>
-      <tr className='bank' id='tableNames'>
+      <tr className='bank'>
         <td className='bankLogo'><img src={bankData?.Logo} alt={bankData.Name} title={bankData.Name} /></td>
         <td className='bankInterest'>-</td>
         <td className='bankInterestWithTax'>-</td>
@@ -18,7 +18,7 @@ export function BankInfo({ bankData, depositMoney }: { bankData: BankSDType, dep
 
   return (
     <>
-      <tr className='bank' id='tableNames'>
+      <tr className={best ? "bestBank bank" : "bank"}>
         <td className='bankLogo'><img src={bankData?.Logo} alt={bankData.Name} title={bankData.Name} /></td>
         <td className='bankInterest'>{Math.round(bankData.Interest * depositMoney / 100)} CZK</td>
         <td className='bankInterestWithTax'>{Math.round(bankData.Interest * depositMoney * 0.85 / 100)} CZK</td>

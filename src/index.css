@@ -74,6 +74,7 @@ p {
 
   width: -moz-available;
   margin-top: 50px;
+  border: 1px solid;
 }
 #tableNames {
   background-color: #575757;
@@ -81,4 +82,18 @@ p {
 .bankLogo img{
   max-width: 80px;
   max-height: 40px;
+}
+.bank {
+  background-color: #242424;
+}
+.bank:nth-child(even){
+  background-color: #3d3d3d;
+}
+.bestBank {
+  background-color: #ffffff;
+  color: black;
+}
+.bestBank:nth-child(even) {
+  background-color: #a2a2a2;
+  color: black;
 }
