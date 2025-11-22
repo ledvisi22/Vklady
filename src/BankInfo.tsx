@@ -1,4 +1,4 @@
-import type {BankDataType, BankSDType} from './Type';
+import type {BankSDType} from './Type';
 
 export function BankInfo({ bankData, depositMoney,best }: { bankData: BankSDType, depositMoney:number, best:boolean}) {
 
@@ -29,14 +29,4 @@ export function BankInfo({ bankData, depositMoney,best }: { bankData: BankSDType
   );
 }
 
-export function getValidInterest(bankData:BankDataType, depositMoney:number) {
-  var interest:number = 0;
-  
-  bankData.InterestPerYear.forEach(InterestInterval => { 
-    if (depositMoney >= InterestInterval.From) {
-      interest = InterestInterval.Interest;
-    }
-  });
 
-  return interest
-}
