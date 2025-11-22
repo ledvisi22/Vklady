@@ -1,7 +1,7 @@
 [
     {
         "Name":"FIO banka",
-        "Logo":"https://www.fio.cz/docs/web_pics/logo_P_662_C_pod_sebou.png",
+        "Logo":"https://www.fio.cz/docs/web_pics/logo_P_662_C_pod_sebou_sire.jpg",
         "InterestPerYear":[
             {
                 "From":0,
@@ -15,7 +15,7 @@
     },
     {
         "Name":"Česká Spořitelna",
-        "Logo":"https://cdn0.erstegroup.com/content/dam/cz/csas/www_csas_cz/obrazky/ikony/logo_cs_2023.svg",
+        "Logo":"https://cdn0.erstegroup.com/gemlip/v2/4RTQYecdQSj4tm3CD6PWky4kbBnQ/dam/cz/csas/www_csas_cz/obrazky/stare-logo-cs.PNG.32c96cb33e95c6c8.xywh.w3840w2560w1920w1280w1024w820w570w360w220w120w64_w1024.webp",
         "InterestPerYear":[
             {
                 "From":0,
@@ -29,7 +29,7 @@
     },
     {
         "Name":"ČSOB",
-        "Logo":"https://www.csob.cz/documents/10710/4049264/logo.svg?v2",
+        "Logo":"https://upload.wikimedia.org/wikipedia/commons/2/2c/CSOB_logo.jpg",
         "InterestPerYear":[
             {
                 "From":0,
@@ -61,7 +61,7 @@
     },
     {
         "Name":"KB",
-        "Logo":"https://www.kb.cz/getmedia/b4e50f15-df4c-4c07-8c29-02d287289323/KB-Logo-Negative-4.svg?ext=.svg",
+        "Logo":"https://www.nfcw.com/wp-content/uploads/2012/02/komercni-banka.jpg",
         "InterestPerYear":[
             {
                 "From":0,
