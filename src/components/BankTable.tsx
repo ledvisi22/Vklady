@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 import { BankInfo } from './BankInfo';
-import { getValidInterest } from './getValidInterest';
-import type { BankDataType, BankSDType } from './Type';
+import { getValidInterest } from '../assets/functions/getValidInterest';
+import type { BankDataType, BankSDType } from '../assets/types/Type';
+import { compareBanks } from '../assets/functions/compareBanks';
 
 export function BankTable({ bankDataArr, depositMoney, time }: { bankDataArr: BankDataType[]; depositMoney: number; time:number; }) {
 
@@ -42,13 +43,4 @@ export function BankTable({ bankDataArr, depositMoney, time }: { bankDataArr: Ba
       )}
     </>
   );
-}export function compareBanks(bankA: BankSDType, bankB: BankSDType) {
-
-  if (bankA.Interest < bankB.Interest) {
-    return 1;
-  } else if (bankA.Interest > bankB.Interest) {
-    return -1;
-  }
-  return 0;
 }
-

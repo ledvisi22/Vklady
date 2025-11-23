@@ -1,4 +1,4 @@
-import type { BankDataType } from './Type';
+import type { BankDataType } from '../types/Type';
 
 
 export function getValidInterest(bankData: BankDataType, depositMoney: number, time:number) {

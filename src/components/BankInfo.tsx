@@ -1,4 +1,4 @@
-import type {BankSDType} from './Type';
+import type {BankSDType} from '../assets/types/Type';
 
 export function BankInfo({ bankData, depositMoney,best, time }: { bankData: BankSDType, depositMoney:number, best:number, time:number}) {
 

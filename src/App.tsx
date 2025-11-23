@@ -1,10 +1,9 @@
 import { useState } from 'react';
-import './App.css';
 import './css/buttons.css';
 import './css/table.css';
 import bankData from './assets/banks.json';
-import type {BankDataType}  from './Type';
-import { BankTable } from './BankTable';
+import type {BankDataType}  from './assets/types/Type';
+import { BankTable } from './components/BankTable';
 
 function App() {
   const [depositMoney,setDepositMoney] = useState(0);
