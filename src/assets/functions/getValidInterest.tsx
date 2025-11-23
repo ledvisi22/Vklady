@@ -10,9 +10,7 @@ export function getValidInterest(bankData: BankDataType, depositMoney: number, t
   }[]
 
   if (time==3) {
-    
     InterestPerTime = bankData.InterestPerThree;
-    console.log(InterestPerTime)
   }else if(time==6){
     InterestPerTime = bankData.InterestPerSix;
   }else {
