@@ -3,7 +3,7 @@ import { BankInfo } from './BankInfo';
 import { getValidInterest } from './getValidInterest';
 import type { BankDataType, BankSDType } from './Type';
 
-export function BankTable({ bankDataArr, depositMoney }: { bankDataArr: BankDataType[]; depositMoney: number; }) {
+export function BankTable({ bankDataArr, depositMoney, time }: { bankDataArr: BankDataType[]; depositMoney: number; time:number; }) {
 
   var BankSpecificDepositArr: BankSDType[] = [
     {
@@ -24,21 +24,21 @@ export function BankTable({ bankDataArr, depositMoney }: { bankDataArr: BankData
         {
           Name: bankDataArr[index].Name,
           Logo: bankDataArr[index].Logo,
-          Interest: getValidInterest(bankDataArr[index], depositMoney)
+          Interest: getValidInterest(bankDataArr[index], depositMoney, time)
         }
       );
     }
 
     setSortedBankDataArr(BankSpecificDepositArr.sort(compareBanks));
   },
-    [depositMoney]
+    [depositMoney, time]
   );
 
   const bestInterest = Math.max(...sortedBankDataArr.map(bank => bank.Interest));
 
   return (
     <>
-      {sortedBankDataArr.map((bank) => <BankInfo key={bank.Name} best={bestInterest} bankData={bank} depositMoney={depositMoney} />
+      {sortedBankDataArr.map((bank) => <BankInfo key={bank.Name} best={bestInterest} bankData={bank} depositMoney={depositMoney} time={time} />
       )}
     </>
   );

@@ -1,6 +1,6 @@
 import type {BankSDType} from './Type';
 
-export function BankInfo({ bankData, depositMoney,best }: { bankData: BankSDType, depositMoney:number, best:number}) {
+export function BankInfo({ bankData, depositMoney,best, time }: { bankData: BankSDType, depositMoney:number, best:number, time:number}) {
 
   const bankRankCol = 255/best*bankData.Interest;
 
@@ -22,16 +22,16 @@ export function BankInfo({ bankData, depositMoney,best }: { bankData: BankSDType
   }
 
   const bankInterest = Intl.NumberFormat("cs-CZ",{ style: "currency", currency: "CZK" }).format(
-    bankData.Interest * depositMoney / 100
+    bankData.Interest * depositMoney / 100 / 12 * time 
   )
   const bankInterestWithTax = Intl.NumberFormat("cs-CZ",{ style: "currency", currency: "CZK" }).format(
-    bankData.Interest * depositMoney * 0.85 / 100
+    bankData.Interest * depositMoney * 0.85 / 100 / 12 * time 
   )
   const bankTax = Intl.NumberFormat("cs-CZ",{ style: "currency", currency: "CZK" }).format(
-    bankData.Interest * depositMoney / 100 * 0.15
+    bankData.Interest * depositMoney / 100 * 0.15 / 12 * time 
   )
   const bankFinalMoney = Intl.NumberFormat("cs-CZ",{ style: "currency", currency: "CZK" }).format(
-    depositMoney + (bankData.Interest * depositMoney / 100 * 0.85)
+    depositMoney + (bankData.Interest * depositMoney / 100 * 0.85 / 12 * time )
   )
 
   return (

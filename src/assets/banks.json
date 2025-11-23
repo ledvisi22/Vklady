@@ -2,6 +2,26 @@
     {
         "Name":"FIO banka",
         "Logo":"https://cdn.myshoptet.com/usr/www.v-mart.cz/user/documents/upload/Fio-banka-logo.png",
+        "InterestPerThree":[
+            {
+                "From":0,
+                "Interest":0
+            },
+            {
+                "From":3000,
+                "Interest":3.2
+            }
+        ],
+        "InterestPerSix":[
+            {
+                "From":0,
+                "Interest":0
+            },
+            {
+                "From":3000,
+                "Interest":2.7
+            }
+        ],
         "InterestPerYear":[
             {
                 "From":0,
@@ -16,6 +36,26 @@
     {
         "Name":"Česká Spořitelna",
         "Logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/%C4%8Cesk%C3%A1_spo%C5%99itelna_-_logo_2023.png/330px-%C4%8Cesk%C3%A1_spo%C5%99itelna_-_logo_2023.png",
+        "InterestPerThree":[
+            {
+                "From":0,
+                "Interest":0
+            },
+            {
+                "From":5000,
+                "Interest":2.25
+            }
+        ],
+        "InterestPerSix":[
+            {
+                "From":0,
+                "Interest":0
+            },
+            {
+                "From":5000,
+                "Interest":2.2
+            }
+        ],
         "InterestPerYear":[
             {
                 "From":0,
@@ -30,6 +70,34 @@
     {
         "Name":"ČSOB",
         "Logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/%C4%8CSOB_logo.svg/304px-%C4%8CSOB_logo.svg.png",
+        "InterestPerThree":[
+            {
+                "From":0,
+                "Interest":0
+            },
+            {
+                "From":5000,
+                "Interest":2.2
+            },
+            {
+                "From":3000000,
+                "Interest":0.01
+            }
+        ],
+        "InterestPerSix":[
+            {
+                "From":0,
+                "Interest":0
+            },
+            {
+                "From":5000,
+                "Interest":2.5
+            },
+            {
+                "From":3000000,
+                "Interest":0.01
+            }
+        ],
         "InterestPerYear":[
             {
                 "From":0,
@@ -48,6 +116,26 @@
     {
         "Name":"Moneta Bank",
         "Logo":"https://prevodyzdarma.cz/wp-content/uploads/2025/05/moneta_1024px.png",
+        "InterestPerThree":[
+            {
+                "From":0,
+                "Interest":0
+            },
+            {
+                "From":15000,
+                "Interest":3.2
+            }
+        ],
+        "InterestPerSix":[
+            {
+                "From":0,
+                "Interest":0
+            },
+            {
+                "From":15000,
+                "Interest":3.2
+            }
+        ],
         "InterestPerYear":[
             {
                 "From":0,
@@ -62,9 +150,41 @@
     {
         "Name":"KB",
         "Logo":"https://www.kb.cz/SecureComm/images/backs/kb_logo.png",
+        "InterestPerThree":[
+            {
+                "From":0,
+                "Interest":0
+            },
+            {
+                "From":5000,
+                "Interest":2.5
+            },
+            {
+                "From":10000000,
+                "Interest":0.01
+            }
+        ],
+        "InterestPerSix":[
+            {
+                "From":0,
+                "Interest":0
+            },
+            {
+                "From":5000,
+                "Interest":2.5
+            },
+            {
+                "From":10000000,
+                "Interest":0.01
+            }
+        ],
         "InterestPerYear":[
             {
                 "From":0,
+                "Interest":0
+            },
+            {
+                "From":5000,
                 "Interest":3
             },
             {
@@ -76,9 +196,41 @@
     {
         "Name":"Raiffeisenbank",
         "Logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Raiffeisen_Bank.svg/1280px-Raiffeisen_Bank.svg.png",
+        "InterestPerThree":[
+            {
+                "From":0,
+                "Interest":0
+            },
+            {
+                "From":10000,
+                "Interest":1.95
+            },
+            {
+                "From":30000000,
+                "Interest":0.01
+            }
+        ],
+        "InterestPerSix":[
+            {
+                "From":0,
+                "Interest":0
+            },
+            {
+                "From":10000,
+                "Interest":1.9
+            },
+            {
+                "From":30000000,
+                "Interest":0.01
+            }
+        ],
         "InterestPerYear":[
             {
                 "From":0,
+                "Interest":0
+            },
+            {
+                "From":10000,
                 "Interest":1.75
             },
             {
@@ -90,6 +242,26 @@
     {
         "Name":"Airbank",
         "Logo":"https://bankovni-ucet.produkter.cz/wp-content/uploads/sites/22/2016/02/logo-airbank.png",
+        "InterestPerThree":[
+            {
+                "From":0,
+                "Interest":0
+            },
+            {
+                "From":30000,
+                "Interest":3.2
+            }
+        ],
+        "InterestPerSix":[
+            {
+                "From":0,
+                "Interest":0
+            },
+            {
+                "From":30000,
+                "Interest":3
+            }
+        ],
         "InterestPerYear":[
             {
                 "From":0,
@@ -104,6 +276,34 @@
     {
         "Name":"UniCredit Bank",
         "Logo":"https://amcquest.alertmc.com/AMCApp/assets/images/customers/unicredit.png",
+        "InterestPerThree":[
+            {
+                "From":0,
+                "Interest":0
+            },
+            {
+                "From":30000,
+                "Interest":3
+            },
+            {
+                "From":10000000,
+                "Interest":0.01
+            }
+        ],
+        "InterestPerSix":[
+            {
+                "From":0,
+                "Interest":0
+            },
+            {
+                "From":30000,
+                "Interest":3.2
+            },
+            {
+                "From":10000000,
+                "Interest":0.01
+            }
+        ],
         "InterestPerYear":[
             {
                 "From":0,
@@ -116,6 +316,10 @@
             {
                 "From":1000000,
                 "Interest":3.3
+            },
+            {
+                "From":10000000,
+                "Interest":0.01
             }
         ]
     }
