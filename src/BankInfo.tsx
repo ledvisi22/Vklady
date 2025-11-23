@@ -1,6 +1,8 @@
 import type {BankSDType} from './Type';
 
-export function BankInfo({ bankData, depositMoney,best }: { bankData: BankSDType, depositMoney:number, best:boolean}) {
+export function BankInfo({ bankData, depositMoney,best }: { bankData: BankSDType, depositMoney:number, best:number}) {
+
+  const bankRankCol = 255/best*bankData.Interest;
 
   if (bankData.Interest == 0 || depositMoney == 0) {
     const bankFinalMoney = Intl.NumberFormat("cs-CZ",{ style: "currency", currency: "CZK" }).format(
@@ -34,12 +36,12 @@ export function BankInfo({ bankData, depositMoney,best }: { bankData: BankSDType
 
   return (
     <>
-      <tr className={best ? "bestBank bank" : "bank"}>
+      <tr className={best == bankData.Interest ? "bestBank bank" : "bank"}>
         <td className='bankLogo'><img src={bankData?.Logo} alt={bankData.Name} title={bankData.Name} /></td>
         <td className='bankInterest'>{bankInterest}</td>
         <td className='bankInterestWithTax'>{bankInterestWithTax}</td>
         <td className='bankTax'>{bankTax}</td>
-        <td className='bankFinalMoney'>{bankFinalMoney}</td>
+        <td style={{borderRight:"5px solid rgb(" + (255 - bankRankCol) + ", " + bankRankCol + ", 0)"}} className='bankFinalMoney'>{bankFinalMoney}</td>
       </tr>
     </>
   );

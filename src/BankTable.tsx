@@ -38,7 +38,7 @@ export function BankTable({ bankDataArr, depositMoney }: { bankDataArr: BankData
 
   return (
     <>
-      {sortedBankDataArr.map((bank) => <BankInfo key={bank.Name} best={bank.Interest == bestInterest} bankData={bank} depositMoney={depositMoney} />
+      {sortedBankDataArr.map((bank) => <BankInfo key={bank.Name} best={bestInterest} bankData={bank} depositMoney={depositMoney} />
       )}
     </>
   );

@@ -1,7 +1,7 @@
 [
     {
         "Name":"FIO banka",
-        "Logo":"https://www.fio.cz/docs/web_pics/logo_P_662_C_pod_sebou_sire.jpg",
+        "Logo":"https://cdn.myshoptet.com/usr/www.v-mart.cz/user/documents/upload/Fio-banka-logo.png",
         "InterestPerYear":[
             {
                 "From":0,
@@ -15,7 +15,7 @@
     },
     {
         "Name":"Česká Spořitelna",
-        "Logo":"https://cdn0.erstegroup.com/gemlip/v2/4RTQYecdQSj4tm3CD6PWky4kbBnQ/dam/cz/csas/www_csas_cz/obrazky/stare-logo-cs.PNG.32c96cb33e95c6c8.xywh.w3840w2560w1920w1280w1024w820w570w360w220w120w64_w1024.webp",
+        "Logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/%C4%8Cesk%C3%A1_spo%C5%99itelna_-_logo_2023.png/330px-%C4%8Cesk%C3%A1_spo%C5%99itelna_-_logo_2023.png",
         "InterestPerYear":[
             {
                 "From":0,
@@ -29,7 +29,7 @@
     },
     {
         "Name":"ČSOB",
-        "Logo":"https://upload.wikimedia.org/wikipedia/commons/2/2c/CSOB_logo.jpg",
+        "Logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/%C4%8CSOB_logo.svg/304px-%C4%8CSOB_logo.svg.png",
         "InterestPerYear":[
             {
                 "From":0,
@@ -47,7 +47,7 @@
     },
     {
         "Name":"Moneta Bank",
-        "Logo":"https://tourism.zabreh.cz/wp-content/uploads/2015/12/Logo_Moneta_Money_Bank.png",
+        "Logo":"https://prevodyzdarma.cz/wp-content/uploads/2025/05/moneta_1024px.png",
         "InterestPerYear":[
             {
                 "From":0,
@@ -61,7 +61,7 @@
     },
     {
         "Name":"KB",
-        "Logo":"https://www.nfcw.com/wp-content/uploads/2012/02/komercni-banka.jpg",
+        "Logo":"https://www.kb.cz/SecureComm/images/backs/kb_logo.png",
         "InterestPerYear":[
             {
                 "From":0,
@@ -75,7 +75,7 @@
     },
     {
         "Name":"Raiffeisenbank",
-        "Logo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIFIP-oX4yHH58N5tlEVIpHkJM5Emf1YJVjQ&s",
+        "Logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Raiffeisen_Bank.svg/1280px-Raiffeisen_Bank.svg.png",
         "InterestPerYear":[
             {
                 "From":0,
@@ -89,7 +89,7 @@
     },
     {
         "Name":"Airbank",
-        "Logo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA-KW-87YIHIc1Vk-g9u1N_F6N1eMnq5YO6w&s",
+        "Logo":"https://bankovni-ucet.produkter.cz/wp-content/uploads/sites/22/2016/02/logo-airbank.png",
         "InterestPerYear":[
             {
                 "From":0,
@@ -103,7 +103,7 @@
     },
     {
         "Name":"UniCredit Bank",
-        "Logo":"https://tourism.zabreh.cz/wp-content/uploads/2015/12/Unicredit-hypot--ka.jpg",
+        "Logo":"https://amcquest.alertmc.com/AMCApp/assets/images/customers/unicredit.png",
         "InterestPerYear":[
             {
                 "From":0,

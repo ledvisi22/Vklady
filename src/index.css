@@ -68,8 +68,10 @@ table {
 }
 th, td {
   padding: 15px;
-  color: #fff;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+th{
+  color: white;
 }
 thead {
   box-shadow: 0px 0px 21px 12px rgba(72, 89, 254, 0.73);
@@ -87,7 +89,26 @@ tbody {
 tr:nth-child(even){
   background-color: #00000012;
 }
+.bank {
+  color: white;
+}
 .bestBank {
-  background-color: #ffffff;
+  background-color: #ffffff70;
   color: black;
+}
+.bestBank:nth-child(even) {
+  background-color: #e1e1e180;
+  color: black;
+}
+thead th:last-child{
+  border-right: inset;
+  border-right-width: 5px;
+  border-right-style: solid;
+  border-right-color: #4859FE;
+}
+.bank td:last-child{
+  border-right: inset;
+  border-right-width: 5px;
+  border-right-style: solid;
+  border-right-color: #7b7b7b;
 }
