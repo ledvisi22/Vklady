@@ -14,7 +14,7 @@ function App() {
   return(
     <>
       <h1>Termínované vklady</h1>
-      <div>
+      <div id='depositDiv'>
         <label htmlFor="moneyDeposit">Vklad: </label>
         <input onChange={e=>setDepositMoney(isNaN(parseInt(e.target.value)) ? 0 : parseInt(e.target.value) >= 0 ? parseInt(e.target.value) : 0)} type="number" name="moneyDeposit" id="moneyDeposit" />
       </div>
